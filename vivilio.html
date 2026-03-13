@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>vivilio</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <div class="top-spacer"></div>
+    <header>
+        <h1>vivilio</h1>
+        
+       
+    </header>
+    <main>
+       
+            <article class="book-card">
+                <div class="illustration-module">
+                  <p id="text-lang1" class="page-text lang1"></p>
+                  
+                   <img src="assets/images/finnie-page01.webp" alt="Finnie's forest walk illustration">
+                <p id="text-lang2" class="page-text lang2"></p>
+                   
+                  </div>
+                <div class="titleAndAge">
+                <h3 class="book-title">Finis Safari der Farben</h3> 
+                <span class="recommended-age">12M+</span>
+                </div>
+                <p class="mini-description">Discover colors together with Fini the fox.</p>
+          
+
+                <fieldset class="language-selectors">
+  <legend>Select languages</legend>
+
+  <select id="language1" name="language1" required>
+    
+    <option value="english">English</option>
+    <option value="russian">Russian</option>
+    <option value="turkish">Turkish</option>
+    <option value="greek">Greek</option>
+    <option value ="german" selected>German</option>
+  </select>
+
+  <select id="language2" name="language2" required>
+   
+    <option value="english">English</option>
+    <option value="russian">Russian</option>
+    <option value="turkish">Turkish</option>
+    <option value="greek" selected>Greek</option>
+    <option value="german">German</option>
+  </select>
+</fieldset>
+
+
+              </div>
+              <section class="interaction">
+<button class="btn"><svg 
+  xmlns="http://www.w3.org/2000/svg"
+  width="24" 
+  height="24" 
+  viewBox="0 0 24 24" 
+  fill="none" 
+  stroke="currentColor" 
+  stroke-width="2" 
+  stroke-linecap="round" 
+  stroke-linejoin="round"
+>
+  <!-- Arrow -->
+  <line x1="12" y1="3" x2="12" y2="14"></line>
+  <polyline points="7 10 12 15 17 10"></polyline>
+
+  <!-- Tray -->
+  <path d="M5 19h14a2 2 0 0 0 2-2v-2M5 19a2 2 0 0 1-2-2v-2"></path>
+</svg>
+</button>
+                <button onclick="printBook()" class="btn"><svg 
+  xmlns="http://www.w3.org/2000/svg"
+  width="24" 
+  height="24" 
+  viewBox="0 0 24 24" 
+  fill="none" 
+  stroke="currentColor" 
+  stroke-width="2" 
+  stroke-linecap="round" 
+  stroke-linejoin="round"
+>
+  <!-- Printer top -->
+  <rect x="6" y="3" width="12" height="6" rx="2"></rect>
+
+  <!-- Printer body -->
+  <rect x="4" y="9" width="16" height="8" rx="2"></rect>
+
+  <!-- Paper -->
+  <rect x="7" y="14" width="10" height="7" rx="1"></rect>
+</svg>
+</button>
+                </section>
+            </article>
+        
+      
+        
+    </main>
+    <script src="script.js"></script>
+  </body>
+
+</html>
